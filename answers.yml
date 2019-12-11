@@ -1,0 +1,18 @@
+FirstName: Matthias
+LastName: Martintoni
+MatriculationNumber: 193299
+AcademicYear: 2019-2020
+GitHubUrl: https://github.com/Matthias1098/dncs-lab
+Subnets:
+  HostsA:
+    RequiredAddresses: 260
+    SubnetAddress: 192.168.0.0
+    SubnetPrefixLength: 23
+  HostsB:
+    RequiredAddresses: 341
+    SubnetAddress: 192.168.2.0
+    SubnetPrefixLength: 23
+  Hub:
+    RequiredAddresses: 493
+    SubnetAddress: 192.168.4.0
+    SubnetPrefixLength: 23
