@@ -6,11 +6,11 @@
   - [Tasks](#tasks)
 - [Notes and References](#notes-and-references)
 - [Design](#design)
-      - [Subnet](#subnet)
-      - [IP-Map and VLAN](#ip-map-and-vlan)
-      - [Realization](#realization)
-        - [Command](#command)
-        - [Docker](#docker)
+  - [Subnet](#subnet)
+  - [IP-Map and VLAN](#ip-map-and-vlan)
+  - [Realization](#realization)
+  - [Command](#command)
+  - [Docker](#docker)
 # DNCS-LAB
 
 This repository contains the Vagrant files required to run the virtual lab environment used in the DNCS course.
