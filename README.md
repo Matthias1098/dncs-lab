@@ -186,7 +186,7 @@ apt -y install docker.io
 systemctl start docker
 systemctl enable docker
 docker pull dustnic82/nginx-test
-docker run -d -p 80:80 dustnic82/nginx-test
+docker run --name nginx -p 80:80 -d dustnic82/nginx-test
 ```
 ##### Docker
 The web-server on the host-c is reachable from host-a and host-b. If the server is running and we execute from one the hosts the command
